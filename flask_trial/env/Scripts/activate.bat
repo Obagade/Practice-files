@@ -8,7 +8,7 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-set "VIRTUAL_ENV=C:\Users\rotim\desktop\pythonpractice\flask_trial\env"
+set "VIRTUAL_ENV=C:\Users\rotim\Desktop\PythonPractice\flask_trial\env"
 
 if not defined PROMPT (
     set "PROMPT=$P$G"

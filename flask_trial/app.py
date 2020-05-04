@@ -1,9 +1,10 @@
+
 from flask import Flask, render_template
 app = Flask(__name__)
 
 @app.route("/")
 def index():
-    title = "Homepage"	
+    title = "Homepage"
     return render_template("index.html", title=title)
 
 @app.route("/about")
